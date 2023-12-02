@@ -1,6 +1,6 @@
 import 'package:docdoc/core/routing/routes.dart';
-// import 'package:docdoc/features/login/view/login.dart';
-// import 'package:docdoc/features/onboarding/onbarding.dart';
+import 'package:docdoc/features/login/view/login.dart';
+import 'package:docdoc/features/onboarding/onbarding.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
@@ -10,13 +10,13 @@ class AppRouter {
 
     switch (settings.name) {
       case AppRoutes.onBoardingScreen:
-        // return MaterialPageRoute(
-        //   builder: (_) => const OnBoardingScreen(),
-        // );
+        return MaterialPageRoute(
+          builder: (_) => const OnBoardingScreen(),
+        );
       case AppRoutes.loginScreen:
-        // return MaterialPageRoute(
-        //   builder: (_) => const LogInScreen(),
-        // );
+        return MaterialPageRoute(
+          builder: (_) => const LogInScreen(),
+        );
 
       default:
         return MaterialPageRoute(
