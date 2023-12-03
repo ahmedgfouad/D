@@ -18,7 +18,7 @@ class DoctorLogoAndName extends StatelessWidget {
         SizedBox(width: 8.w),
         Text(
           "DocDoc",
-          style: AppStyles.font24Black700Weight,
+          style: AppStyles.font24BlackBold,
         ),
       ],
     );
